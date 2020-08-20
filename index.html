@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Coronavirus Tracker</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
 body,h1,h2{font-family: "Raleway", sans-serif}
-h1,h2{color: #000;}
+h1,h2{color: black; font-weight : 900;}
 body, html {height: 100%}
+#Active, #s, #Date{color: white;}
 p {line-height: 2}
 .bgimg, .bgimg2 {
   min-height: 100%;
   background-position: center;
   background-size: cover;
 }
-.bgimg {background-image :url("https://cdn.cnn.com/cnnnext/dam/assets/200320110619-coronavirus-animation-super-tease.jpg")}
+.bgimg {background-image :url("https://foreignpolicy.com/wp-content/uploads/2020/04/coronavirus-globalization-brian-stauffer-.jpg")}
 </style>
 <script src="main.js"></script>
 <body>
@@ -24,7 +25,7 @@ p {line-height: 2}
 <header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
   <div class="w3-display-middle w3-text-white w3-center">
     <h1 class="w3-jumbo" id="Active">Cases</h1>
-    <h2>Confirmed Cases On-  </h2>
+    <h2 id = "s">Confirmed Cases On-  </h2>
     <h2 id="Date"><b>Date</b></h2>
   </div>
 </header>
